@@ -1,0 +1,49 @@
+.head{
+    color: blue;
+}
+#input{
+    border:5px solid green;
+    width:70%;
+    height:50px;
+    font-size:25px;
+}
+#but{
+    color: rgb(198, 232, 233);
+    font-weight: 900;
+    font-size: 20px;
+    height:60px;
+    width:80px;
+    background-color:blue;
+}
+
+.tasks{
+    border: 3px solid blue;
+    height:220px;
+    width:50%;
+    margin:auto;
+    margin-top:30px;
+    
+}
+
+.taskgiven{
+    font-size:50px;
+    color: purple;
+    text-align: center;
+}
+
+.done{
+   
+   background-color:blue;
+}
+.done,.remove{
+    width:150px;
+   height:50px;
+   color:rgb(229, 243, 243);
+   font-weight: 900;
+   margin-left: 20%;
+   margin-bottom: 10px;
+
+}
+.remove{
+    background-color:red;
+ }
