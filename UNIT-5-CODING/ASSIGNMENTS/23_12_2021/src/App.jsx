@@ -16,13 +16,13 @@ function App() {
 }
 
 function Todos({os}){
-  return ( <tr>
+  return <tr>
       <ul>
      <li> {os}</li>
      </ul>
     
   </tr> 
-  );
+
   
 }
 
