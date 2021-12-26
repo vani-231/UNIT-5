@@ -17,7 +17,7 @@ function App() {
        <Todos num={e}  />
        
        ))}
-      {/* <h3 style = {{color: 'white',backgroundColor: 'red'}}>VANI LOVE <i>HARI KUMAR V</i></h3> */}
+
      
 
     </div>
