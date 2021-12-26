@@ -25,7 +25,14 @@ console.log(add(4,8));
 // document.getElementById("root").appendChild(h1)
 
 ReactDom.render(
-    React.createElement("h1",{className:"hidden"},"HELLO WORLD!"),
+    //React.createElement("h1",{className:"hidden"},
+     //React.createElement("i",null,"HELLO WORLD!")
+    //  [
+    //      "Hello webpack AND",
+    //      React.createElement("i",null," HELLO WORLD!")
+
+    //  ]),
+    <h1 className="hidden">HELLO WORLD {" "} <i>REACT{" "} <b>BOLD {" "}</b></i></h1>,
     document.getElementById("root")
 )
 
