@@ -15,11 +15,15 @@ export const Grocery=()=>{
           setList([...list,payload])
 
     }
-    
+    const removeTodo = id => {
+        const newTodos = [...list];
+        newTodos.splice(id, 1);
+        setList(newTodos);
+      };
     return <>
     <GroceryInput getData = {handleClick} />
     {list.map((e)=>(
-            <Grocerylist key={e.id} {...e}  />
+            <Grocerylist key={e.id} {...e} removeData={removeTodo}  />
         ))}
     </>
 }

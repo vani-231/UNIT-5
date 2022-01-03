@@ -1,12 +1,11 @@
-export const Grocerylist = ({title,id})=>{
+
+export const Grocerylist = ({title,id,removeData})=>{
     console.log("hello",title,id);
-    const removeData = (e)=>{
-       
-    }
+    
     return (
         <>
         <div>
-            {title}- <button onClick={removeData} >REMOVE</button>
+            {title} - <button onClick={removeData} >REMOVE</button>
         </div>
         </>
     )

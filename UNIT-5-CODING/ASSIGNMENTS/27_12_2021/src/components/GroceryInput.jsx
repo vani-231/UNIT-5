@@ -12,5 +12,8 @@ export const GroceryInput=({getData})=>{
     return <>
        <input type="text" placeholder="Enter Your Grocery Item Here" onChange={handleChange} />
        <button onClick={handleClick}>ADD ITEM</button>
+       <br /><br />
+       <button onClick = {} >CURRENT LIST</button>
+       <button>ORDERED LIST</button>
     </>
 }
