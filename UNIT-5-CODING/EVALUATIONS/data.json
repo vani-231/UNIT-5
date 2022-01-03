@@ -1,3 +1,22 @@
 {
-    "recipe":[{"id":1,"name":"vani"}]
+    "recipe": [
+        {
+            "id": 1,
+            "name": "Chicken",
+            "ingredients": "rice,chicken",
+            "rules": "heat well"
+        },
+        {
+            "id": 2,
+            "name": "Chicken",
+            "ingredients": "rice,chicken",
+            "rules": "heat well"
+        },
+        {
+            "id": 3,
+            "name": "Chicken",
+            "ingredients": "rice,chicken",
+            "rules": "heat well"
+        }
+    ]
 }
