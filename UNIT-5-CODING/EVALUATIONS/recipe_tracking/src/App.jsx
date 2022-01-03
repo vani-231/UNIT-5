@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import {Addrecipe} from "./components/Addrecipe"
+import { Recipe } from './components/Recipe';
 
 function App() {
   return (
     <div className="App">
-      <Addrecipe/>
-      
+      <Recipe/>
     </div>
   );
 }
