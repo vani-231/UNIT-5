@@ -1,0 +1,23 @@
+{
+  "job": [
+    {
+      "companyName": "M",
+      "jobTitle": "",
+      "salaryRange": "",
+      "jobDescription": "",
+      "location": "",
+      "jobType": "",
+      "id": 1
+    },
+    {
+      "companyName": "MASAI ",
+      "jobTitle": "INSTRUCTOR ASSISTANT",
+      "salaryRange": "5-9 LPA ",
+      "jobDescription": "TEACHING",
+      "location": "BANGALORE",
+      "jobType": "",
+      "jobType ": "REMOTE",
+      "id": 2
+    }
+  ]
+}
