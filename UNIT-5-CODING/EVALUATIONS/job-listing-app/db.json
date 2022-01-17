@@ -39,6 +39,16 @@
       "jobType": "",
       "jobType ": "REMOTE",
       "id": 4
+    },
+    {
+      "companyName": "Accenture",
+      "jobTitle": "Techinal Instructor",
+      "salaryRange": "5-9 LPA ",
+      "jobDescription": "TEACHING",
+      "location": "Pune",
+      "jobType": "",
+      "jobType ": "REMOTE",
+      "id": 5
     }
   ]
 }
