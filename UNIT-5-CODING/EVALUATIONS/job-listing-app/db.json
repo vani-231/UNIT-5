@@ -18,6 +18,26 @@
       "jobType": "",
       "jobType ": "REMOTE",
       "id": 2
+    },
+    {
+      "companyName": "Infosys",
+      "jobTitle": "Full-stack web developer",
+      "salaryRange": "8-10 LPA",
+      "jobDescription": "Coding",
+      "location": "Hyderabad",
+      "jobType": "",
+      "jobType ": "REMOTE",
+      "id": 3
+    },
+    {
+      "companyName": "TCS",
+      "jobTitle": "System engineer Trainee",
+      "salaryRange": "5-9 LPA ",
+      "jobDescription": "TEACHING",
+      "location": "Mysore",
+      "jobType": "",
+      "jobType ": "REMOTE",
+      "id": 4
     }
   ]
 }
