@@ -12,17 +12,17 @@ export const Navbar = () => {
                 <Spacer />
                 <Center>
                     <Link to={"/"}>
-                        <Button me={4} colorScheme={"teal"}>
+                        <Button me={4} colorScheme={"red"}>
                             Home
                         </Button>
                     </Link>
                     <Link to={"/dashboard"}>
-                        <Button me={4} colorScheme={"teal"}>
+                        <Button me={4} colorScheme={"red"}>
                             Dashboard
                         </Button>
                     </Link>
                     <Link to={"/dashboard/settings"}>
-                        <Button me={4} colorScheme={"teal"}>
+                        <Button me={4} colorScheme={"red"}>
                             Settings
                         </Button>
                     </Link>
@@ -36,7 +36,7 @@ export const Navbar = () => {
                                     : undefined
                             }
                             me={4}
-                            colorScheme={"teal"}
+                            colorScheme={"red"}
                         >
                             {!token ? "Login" : "Logout"}
                         </Button>

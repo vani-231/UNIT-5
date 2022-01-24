@@ -70,7 +70,7 @@ export const Login = () => {
                         type="password"
                         placeholder="Password"
                     />
-                    <Button type="submit" w={"100%"} colorScheme={"teal"}>
+                    <Button type="submit" w={"100%"} colorScheme={"red"}>
                         Submit
                     </Button>
                 </VStack>
