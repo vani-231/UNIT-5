@@ -2,6 +2,7 @@ export const Single = ({ users }) => {
     console.log(users)
     return (<>
         <div style={{ fontSize: '40px', color: "blue", textAlign: 'center', textDecoration: "underline" }}>INDIVIDUAL PAGE</div>
+        <div style={{ fontSize: '20px', color: "white", backgroundColor: "black", textAlign: 'center', border: "3px solid green", width: "200px" }}> <Link href="/" > BACK TO HOME</Link></div>
 
         <div>
             {users.map((user, index) => (
