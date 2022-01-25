@@ -1,4 +1,4 @@
-import { single } from "./single"
+
 import Link from 'next/link'
 export const Profiles = ({ users }) => {
     console.log(users)
@@ -7,28 +7,12 @@ export const Profiles = ({ users }) => {
 
     return (
         <>
+            <div style={{ fontSize: '40px', color: "blue", textAlign: 'center', textDecoration: "underline" }}>MAIN PAGE</div>
             <div>{users.map((user, index) => (
                 <div key={index}>
+
                     <h1>{user.name}</h1>
-                    <button onClick={() => {
-                        // console.log(user.name)
-                        <h1>{user.name}</h1>
-                        // <div key={index}>
-
-                        //     <h1>{user.name}</h1>
-                        //     <h1>{user.username}</h1>
-                        //     <h1>{user.email}</h1>
-                        //     <h1> Address: {user.address.street}
-                        //         {user.address.suit}
-                        //         {user.address.city}
-                        //         {user.address.zipcode}
-
-                        //     </h1>
-                        //     <h1>Phone:{user.phone}</h1>
-                        //     <h1>Website:{user.website}</h1>
-                        //     <h1>Company name: {user.company.name}</h1>
-                        // </div>
-                    }} >View Details</button>
+                    <Link href="/single" ><button>View Details</button></Link>
                 </div>
             ))}</div>
         </>
