@@ -1,3 +1,5 @@
+
+import Link from 'next/link'
 export const Single = ({ users }) => {
     console.log(users)
     return (<>
